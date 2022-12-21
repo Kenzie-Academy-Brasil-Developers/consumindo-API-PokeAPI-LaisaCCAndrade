@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
     <title>Consumindo PokeAPI</title>
   </head>
 
-  <body></body>
+  <body class="container">
+    <img class="logo" src="./src/assets/pokeapi.png">
+    <nav>
+      <input class="barraPesq" type="text" placeholder="Pesquisar por...">
+      <button class="buttonPesq" id="searchBtn" type="submit"><img class="imgButton" src="./src/assets/search-icon.png" alt=""></button>
+    </nav>
+      
+    <main>
+      <h2 class="titulo">Lista de Pokémon</h2>
+      <section>
+        <ul class="main__list">
+          <h3 class="carregando" id="loading">Carregando...</h3>
+          <!-- <li class="lista">
+            <img class="imgPersonagem" src="./src/assets/1 2.png">
+            <h3 class="nomePersonagem">Magikarp</h3>
+          </li>
+          <li class="lista">
+            <img class="imgPersonagem" src="./src/assets/1 2.png">
+            <h3 class="nomePersonagem">Magikarp</h3>
+          </li> -->
+        </ul>
+      </section>
+    </main>
+   
+    <script src="./src/scripts/requests.js"></script>
+    <script src="./src/scripts/index.js"></script>
+  </body>
 </html>

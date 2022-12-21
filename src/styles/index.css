@@ -1,1 +1,688 @@
 /* Monte sua estilização aqui */
+
+.container{
+    background-color: #000000;
+    border: 1px solid #568;
+}
+
+.logo{
+    width: 8rem;
+    height: 5rem;
+    margin: 1rem 2rem 1rem 5rem;
+}
+
+.barraPesq{
+    color: #7C8B99;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20.8px;
+    background-color: #343A40;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 1px solid #4C6EF5;
+    display: flex;
+    margin: 0 1rem;
+
+}
+ 
+.imgButton{
+    width: 1rem;
+    height: 1rem;
+    margin: .5rem 3rem 0 1.2rem;
+} 
+
+.buttonPesq{
+    display: flex;
+    background-color: #4C6EF5;
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    margin: -2.7rem 13.5rem;
+    cursor: pointer;
+}
+
+/* #all{
+    border: none;
+    background-color: #4C6EF5;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 4rem;
+    height: 2rem;
+    margin: .5rem 7rem;
+} */
+
+.titulo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 31.2px;
+    color: #DEE2E6;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.carregando{
+    font-size: 1.25rem;
+    color: #ADB5BD;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.lista{
+    background-color: #343A40;
+    border-radius: 8px;
+    border: none;
+    width: 17rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.imgPersonagem{
+    width: 3rem;
+    margin: -.1rem 1rem;
+}
+
+.nomePersonagem{
+    color: #CED4DA;
+    font-size: 1.25rem;
+    margin: -2rem 5rem;
+}
+
+@media(min-width: 350px){
+
+    .logo{
+        margin: 1rem 2rem 1rem 7rem;
+    }
+
+    #all{
+        margin: .5rem 9rem;
+    }
+
+    .barraPesq{
+        margin: 0 2.5rem;
+    }
+
+    .buttonPesq{
+        margin: -2.7rem 15rem;
+    }
+
+    .lista{
+        margin: 1rem 2.5rem;
+    }
+}
+
+@media(min-width: 400px){
+
+    .logo{
+        margin: 1rem 2rem 1rem 9rem;
+    }
+
+    #all{
+        margin: .5rem 10rem;
+    }
+
+    .barraPesq{
+        margin: 0 4rem;
+    }
+
+    .buttonPesq{
+        margin: -2.7rem 16.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+    }
+}
+
+@media(min-width: 450px){
+
+    .logo{
+        margin: 1rem 2rem 1rem 10rem;
+    }
+
+    #all{
+        margin: .5rem 12rem;
+    }
+
+    .barraPesq{
+        margin: 0 5.5rem;
+    }
+
+    .buttonPesq{
+        margin: -2.7rem 18rem;
+    }
+
+    .lista{
+        margin: 1rem 5.5rem;
+    }
+}
+
+@media(min-width: 500px){
+
+    .logo{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    #all{
+        margin: .5rem 13rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 12.5rem;
+        width: 12rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 27rem;
+        height: 3rem;
+    }
+
+    .lista{
+        margin: 1rem 2.5rem;
+        width: 27rem;
+    }
+}
+
+@media(min-width: 550px){
+
+    .logo{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    #all{
+        margin: .5rem 15rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 14rem;
+        width: 12rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 28.5rem;
+    }
+
+    .lista{
+        margin: 1rem 3.5rem;
+    }
+}
+
+@media(min-width: 600px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 3rem;
+    }
+
+    #all{
+        margin: .5rem 17rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 16rem;
+        width: 12rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 30.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+        width: 30rem;
+    }
+}
+
+@media(min-width: 650px){
+
+    #all{
+        margin: .5rem 18rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 18rem;
+        width: 12rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 32.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+        width: 32rem;
+    }
+}
+
+@media(min-width: 700px){
+
+    #all{
+        margin: .5rem 20rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 20rem;
+        width: 12rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 34.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+        width: 35rem;
+    }
+}
+
+@media(min-width: 750px){
+
+    #all{
+        margin: .5rem 22rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 23rem;
+        width: 15rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 40.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+        width: 40rem;
+    }
+}
+
+@media(min-width: 850px){
+
+    #all{
+        margin: .5rem 25rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 28rem;
+        width: 15rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 45.5rem;
+    }
+
+    .lista{
+        margin: 1rem 4rem;
+        width: 45rem;
+    }
+}
+
+@media(min-width: 900px){
+
+    #all{
+        margin: .5rem 27rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 30rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 47.5rem;
+    }
+
+    .lista{
+        margin: 1rem 5rem;
+    }
+}
+
+@media(min-width: 1000px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 8rem;
+    }
+
+    #all{
+        margin: .5rem 29rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 35rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 53rem;
+    }
+
+    .lista{
+        margin: 1rem 10rem;
+    }
+}
+
+@media(min-width: 1050px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 8rem;
+    }
+
+    #all{
+        margin: .5rem 29rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 35rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 53rem;
+    }
+
+    .lista{
+        margin: 1rem 8rem;
+        width: 50rem;
+    }
+}
+
+@media(min-width: 1100px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 10rem;
+    }
+
+    #all{
+        margin: .5rem 32rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 38rem;
+    }
+
+    .imgButton{
+        margin: .9rem 3rem 0 1.2rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 55.5rem;
+    }
+
+    .lista{
+        margin: 1rem 10rem;
+        width: 50rem;
+    }
+}
+
+@media(min-width: 1150px){
+
+    #all{
+        margin: .5rem 34rem;
+    }
+}
+
+@media(min-width: 1200px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 13rem;
+    }
+
+    #all{
+        margin: .5rem 35rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 40.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 58.5rem;
+    }
+
+    .lista{
+        margin: 1rem 13rem;
+    }
+}
+
+@media(min-width: 1250px){
+
+    #all{
+        margin: .5rem 37rem;
+    }
+}
+
+@media(min-width: 1300px){
+
+    #all{
+        margin: .5rem 39rem;
+    }
+}
+
+@media(min-width: 1350px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 17rem;
+    }
+
+    #all{
+        margin: .5rem 40rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 44.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 62.5rem;
+    }
+
+    .lista{
+        margin: 1rem 17rem;
+    }
+}
+
+@media(min-width: 1400px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 18.5rem;
+    }
+
+    #all{
+        margin: .5rem 42rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 45.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 63.5rem;
+    }
+
+    .lista{
+        margin: 1rem 18.5rem;
+    }
+}
+
+@media(min-width: 1450px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 20rem;
+    }
+
+    #all{
+        margin: .5rem 43.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 47.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 65.5rem;
+    }
+
+    .lista{
+        margin: 1rem 20rem;
+    }
+}
+
+@media(min-width: 1500px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 22.5rem;
+    }
+
+    #all{
+        margin: .5rem 44.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 49.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 67.5rem;
+    }
+
+    .lista{
+        margin: 1rem 22.5rem;
+    }
+}
+
+@media(min-width: 1550px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 24.5rem;
+    }
+
+    #all{
+        margin: .5rem 46.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 51.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 69.5rem;
+    }
+
+    .lista{
+        margin: 1rem 24.5rem;
+    }
+}
+
+@media(min-width: 1600px){
+
+    #all{
+        margin: .5rem 48.5rem;
+    }
+}
+
+@media(min-width: 1650px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 26.5rem;
+    }
+
+    #all{
+        margin: .5rem 49.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 53.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 70.5rem;
+    }
+
+    .lista{
+        margin: 1rem 26.5rem;
+    }
+}
+
+@media(min-width: 1700px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 30rem;
+    }
+
+    #all{
+        margin: .5rem 51.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 55.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 73.5rem;
+    }
+
+    .lista{
+        margin: 1rem 30rem;
+    }
+}
+
+@media(min-width: 1750px){
+
+    .logo{
+        margin: 2rem 2rem 1rem 31rem;
+    }
+
+    #all{
+        margin: .5rem 52.5rem;
+    }
+
+    .barraPesq{
+        margin: -5rem 57.5rem;
+    } 
+
+    .buttonPesq{
+        margin: 2rem 0 0 75.5rem;
+    }
+
+    .lista{
+        margin: 1rem 31rem;
+    }
+}
