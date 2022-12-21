@@ -23,6 +23,9 @@ async function consomePokeAPI() {
 
 async function getPokemonByName(pokemonName){
 
+  const loading = document.querySelector('#loading')
+  loading.classList.remove('hidden')
+  
   const pokemon =  await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`, {
 
     method: 'GET',
@@ -31,13 +34,12 @@ async function getPokemonByName(pokemonName){
     }
   })
 
-  .then(res => res.json())
+  .then(res => {return res.json()})
 
   .then(res =>{
-
     return res
   })
-
+  loading.classList.add('hidden')
   return pokemon
 
 }
@@ -47,8 +49,8 @@ function renderSearch(){
   const searchInput = document.querySelector('input')
   const searchBtn = document.querySelector('#searchBtn')
 
-    searchBtn.addEventListener('click', async () =>{
-
+  searchBtn.addEventListener('click', async () =>{
+    
     renderPesq(await getPokemonByName(searchInput.value))
 
   })

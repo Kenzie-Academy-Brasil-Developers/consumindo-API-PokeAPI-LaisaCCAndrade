@@ -2,7 +2,6 @@
 
 .container{
     background-color: #000000;
-    border: 1px solid #568;
 }
 
 .logo{
@@ -44,16 +43,6 @@
     cursor: pointer;
 }
 
-/* #all{
-    border: none;
-    background-color: #4C6EF5;
-    cursor: pointer;
-    border-radius: 8px;
-    width: 4rem;
-    height: 2rem;
-    margin: .5rem 7rem;
-} */
-
 .titulo{
     font-size: 1.5rem;
     font-weight: 500;
@@ -69,6 +58,11 @@
     text-align: center;
     margin: 1rem 0 2rem 0;
 }
+
+.hidden{
+     display: none; 
+     /* transition: 10s;  */
+} 
 
 .lista{
     background-color: #343A40;
