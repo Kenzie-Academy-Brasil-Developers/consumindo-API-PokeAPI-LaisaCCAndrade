@@ -60,8 +60,7 @@
 }
 
 .hidden{
-     display: none; 
-     /* transition: 10s;  */
+    display: none; 
 } 
 
 .lista{
@@ -90,10 +89,6 @@
         margin: 1rem 2rem 1rem 7rem;
     }
 
-    #all{
-        margin: .5rem 9rem;
-    }
-
     .barraPesq{
         margin: 0 2.5rem;
     }
@@ -111,10 +106,6 @@
 
     .logo{
         margin: 1rem 2rem 1rem 9rem;
-    }
-
-    #all{
-        margin: .5rem 10rem;
     }
 
     .barraPesq{
@@ -136,10 +127,6 @@
         margin: 1rem 2rem 1rem 10rem;
     }
 
-    #all{
-        margin: .5rem 12rem;
-    }
-
     .barraPesq{
         margin: 0 5.5rem;
     }
@@ -157,10 +144,6 @@
 
     .logo{
         margin: 1rem 2rem 1rem 2rem;
-    }
-
-    #all{
-        margin: .5rem 13rem;
     }
 
     .barraPesq{
@@ -189,10 +172,6 @@
         margin: 1rem 2rem 1rem 2rem;
     }
 
-    #all{
-        margin: .5rem 15rem;
-    }
-
     .barraPesq{
         margin: -5rem 14rem;
         width: 12rem;
@@ -217,10 +196,6 @@
         margin: 2rem 2rem 1rem 3rem;
     }
 
-    #all{
-        margin: .5rem 17rem;
-    }
-
     .barraPesq{
         margin: -5rem 16rem;
         width: 12rem;
@@ -241,10 +216,6 @@
 }
 
 @media(min-width: 650px){
-
-    #all{
-        margin: .5rem 18rem;
-    }
 
     .barraPesq{
         margin: -5rem 18rem;
@@ -267,10 +238,6 @@
 
 @media(min-width: 700px){
 
-    #all{
-        margin: .5rem 20rem;
-    }
-
     .barraPesq{
         margin: -5rem 20rem;
         width: 12rem;
@@ -291,10 +258,6 @@
 }
 
 @media(min-width: 750px){
-
-    #all{
-        margin: .5rem 22rem;
-    }
 
     .barraPesq{
         margin: -5rem 23rem;
@@ -317,10 +280,6 @@
 
 @media(min-width: 850px){
 
-    #all{
-        margin: .5rem 25rem;
-    }
-
     .barraPesq{
         margin: -5rem 28rem;
         width: 15rem;
@@ -341,10 +300,6 @@
 }
 
 @media(min-width: 900px){
-
-    #all{
-        margin: .5rem 27rem;
-    }
 
     .barraPesq{
         margin: -5rem 30rem;
@@ -369,10 +324,6 @@
         margin: 2rem 2rem 1rem 8rem;
     }
 
-    #all{
-        margin: .5rem 29rem;
-    }
-
     .barraPesq{
         margin: -5rem 35rem;
     }
@@ -394,10 +345,6 @@
 
     .logo{
         margin: 2rem 2rem 1rem 8rem;
-    }
-
-    #all{
-        margin: .5rem 29rem;
     }
 
     .barraPesq{
@@ -424,10 +371,6 @@
         margin: 2rem 2rem 1rem 10rem;
     }
 
-    #all{
-        margin: .5rem 32rem;
-    }
-
     .barraPesq{
         margin: -5rem 38rem;
     }
@@ -446,21 +389,10 @@
     }
 }
 
-@media(min-width: 1150px){
-
-    #all{
-        margin: .5rem 34rem;
-    }
-}
-
 @media(min-width: 1200px){
 
     .logo{
         margin: 2rem 2rem 1rem 13rem;
-    }
-
-    #all{
-        margin: .5rem 35rem;
     }
 
     .barraPesq{
@@ -476,30 +408,11 @@
     }
 }
 
-@media(min-width: 1250px){
-
-    #all{
-        margin: .5rem 37rem;
-    }
-}
-
-@media(min-width: 1300px){
-
-    #all{
-        margin: .5rem 39rem;
-    }
-}
-
 @media(min-width: 1350px){
 
     .logo{
         margin: 2rem 2rem 1rem 17rem;
     }
-
-    #all{
-        margin: .5rem 40rem;
-    }
-
     .barraPesq{
         margin: -5rem 44.5rem;
     } 
@@ -517,10 +430,6 @@
 
     .logo{
         margin: 2rem 2rem 1rem 18.5rem;
-    }
-
-    #all{
-        margin: .5rem 42rem;
     }
 
     .barraPesq{
@@ -542,10 +451,6 @@
         margin: 2rem 2rem 1rem 20rem;
     }
 
-    #all{
-        margin: .5rem 43.5rem;
-    }
-
     .barraPesq{
         margin: -5rem 47.5rem;
     } 
@@ -563,10 +468,6 @@
 
     .logo{
         margin: 2rem 2rem 1rem 22.5rem;
-    }
-
-    #all{
-        margin: .5rem 44.5rem;
     }
 
     .barraPesq{
@@ -588,10 +489,6 @@
         margin: 2rem 2rem 1rem 24.5rem;
     }
 
-    #all{
-        margin: .5rem 46.5rem;
-    }
-
     .barraPesq{
         margin: -5rem 51.5rem;
     } 
@@ -605,21 +502,10 @@
     }
 }
 
-@media(min-width: 1600px){
-
-    #all{
-        margin: .5rem 48.5rem;
-    }
-}
-
 @media(min-width: 1650px){
 
     .logo{
         margin: 2rem 2rem 1rem 26.5rem;
-    }
-
-    #all{
-        margin: .5rem 49.5rem;
     }
 
     .barraPesq{
@@ -641,10 +527,6 @@
         margin: 2rem 2rem 1rem 30rem;
     }
 
-    #all{
-        margin: .5rem 51.5rem;
-    }
-
     .barraPesq{
         margin: -5rem 55.5rem;
     } 
@@ -662,10 +544,6 @@
 
     .logo{
         margin: 2rem 2rem 1rem 31rem;
-    }
-
-    #all{
-        margin: .5rem 52.5rem;
     }
 
     .barraPesq{
