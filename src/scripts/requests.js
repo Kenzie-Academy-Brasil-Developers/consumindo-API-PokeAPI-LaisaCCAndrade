@@ -59,9 +59,9 @@ function renderSearch(){
 
 async function renderPesq(resposta){
 
-  const ulTag = document.querySelector('ul')
-  ulTag.innerHTML = ''
-  ulTag.insertAdjacentHTML('beforeend', `
+  const mainList = document.querySelector('ul')
+  mainList.innerHTML = ''
+  mainList.insertAdjacentHTML('beforeend', `
     <li class="lista">
       <img class="imgPersonagem" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${resposta.id}.png" alt=${resposta.name}>
       <h3 class="nomePersonagem">${resposta.name}</h3>
