@@ -1,7 +1,5 @@
 async function consomePokeAPI() {
   
-  // const loading = document.querySelector('#loading')
-  
   const pokemonsDaAPI = await fetch('https://pokeapi.co/api/v2/pokemon?')
   .then(
       
@@ -14,15 +12,12 @@ async function consomePokeAPI() {
 
   )
   
-  // loading.classList.add('hidden')
-  
   return pokemonsDaAPI
 }
 
 async function getPokemonByName(pokemonName){
 
   const loading = document.querySelector('#loading')
-  // loading.classList.remove('hidden')
   
   const pokemon =  await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`, {
 
@@ -37,7 +32,7 @@ async function getPokemonByName(pokemonName){
   .then(res =>{
     return res
   })
-  // loading.classList.add('hidden')
+ 
   return pokemon
 
 }
