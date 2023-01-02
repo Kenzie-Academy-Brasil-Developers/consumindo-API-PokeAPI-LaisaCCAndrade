@@ -1,5 +1,3 @@
-// /* Monte a lógica das requisições aqui */
-
 async function consomePokeAPI() {
   
   const loading = document.querySelector('#loading')
